@@ -25,6 +25,21 @@ Akaunting is a free, open source and online accounting software designed for sma
 
 Akaunting uses [Laravel](http://laravel.com), the best existing PHP framework, as the foundation framework and [Module](https://github.com/akaunting/module) package for Apps.
 
+
+## Installation of Mhasibu Box
+
+* Install [Composer](https://getcomposer.org/download) and [Npm](https://nodejs.org/en/download)
+* Clone the repository: `git clone ttps://github.com/jeremi16us/akaunting.git mhasibubox`
+* Change directory `cd mhasibubox`
+* Install dependencies: `composer install ; npm install ; npm run dev`
+* Install Akaunting:
+
+```bash
+php artisan install --db-name="akaunting" --db-username="root" --db-password="pass" --admin-email="admin@company.com" --admin-password="123456"
+```
+
+* Create sample data (optional): `php artisan sample-data:seed`
+
 ## Installation
 
 * Install [Composer](https://getcomposer.org/download) and [Npm](https://nodejs.org/en/download)
