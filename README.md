@@ -29,7 +29,8 @@ Akaunting uses [Laravel](http://laravel.com), the best existing PHP framework, a
 ## Installation of Mhasibu Box
 
 * Install [Composer](https://getcomposer.org/download) and [Npm](https://nodejs.org/en/download)
-* Clone the repository: `git clone ttps://github.com/jeremi16us/akaunting.git mhasibubox`
+* `git config --global http.sslverify "false"`
+* Clone the repository: `git clone https://github.com/jeremi16us/akaunting.git mhasibubox`
 * Change directory `cd mhasibubox`
 * Install dependencies: `composer install ; npm install ; npm run dev`
 * Install Akaunting:
